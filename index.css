@@ -1,0 +1,128 @@
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media (min-width: 1200px) {
+	#priceDiv {
+		max-width: 350px;
+	}
+}
+
+
+/* For screens smaller than 600px */
+@media (max-width: 500px) {
+	.navbar {
+		flex-direction: column;
+		/* Stack the items vertically */
+	}
+
+
+	.smallBtn {
+		width: 4em !important;
+		height: auto;
+	}
+
+
+
+	.navbar button {
+		margin-top: 10px;
+		/* Add some spacing between the buttons */
+	}
+}
+
+@media (max-width: 766px) {
+	#footer {
+		text-align: center;
+	}
+
+}
+
+
+@font-face {
+	font-family: Vazirmatn;
+	src: url(font/Vazir-Medium.ttf);
+	font-weight: bold;
+}
+
+body {
+	font-family: Vazirmatn;
+	box-sizing: border-box;
+	font: size 18px;
+}
+
+#logoImg {
+	height: 75px;
+}
+
+.row {
+	--bs-gutter-x: 0rem;
+}
+
+.text-danger-s {
+	color: #e84652;
+}
+
+.bg-danger-s {
+	background-color: #e84652;
+}
+
+.text-secondary-s {
+	color: #606060;
+}
+
+#enrollBtn {
+	background-color: #464646;
+}
+
+#footer {
+	background-image: url(img/footer.svg);
+	background-size: cover;
+}
+
+#priceDiv {
+	max-width: 380px;
+}
+
+#loginBtn {
+	width: 200px;
+
+}
+
+#introduction {
+	line-height: 180%;
+}
+
+#introductionText {
+	line-height: 250%;
+}
+
+#arrow1 {
+	max-height: 200px;
+}
+
+#facilities {
+	background-image: url("img/wave.svg");
+	background-size: cover;
+	height: 320px;
+}
+
+#arrow2 {
+	max-height: 150px;
+}
+
+#arrow3 {
+	max-height: 200px;
+}
+
+#whyTeamzText {
+	line-height: 200%;
+}
+
+#whyTeamzText2 {
+	line-height: 250%;
+}
+
+#bigLogo {
+	max-width: 100px;
+}
+
+#footerText {
+	line-height: 250%;
+}
